@@ -1,4 +1,12 @@
- <div class ="slds-box">
+  <div class= "background">
+       
+     
+            
+             <div class= "header">
+            <b style = "padding-left: 0px">Account Details </b>
+        </div>
+         
+        <!-- <div class ="{v.ListIndustry.indexOf(!v.Industry)?'highlight-red slds-box' : '')}"> -->
             <div>
                 <lightning:tile label="Salesforce UX" href="/path/to/somewhere" >
                     <aura:set attribute="media">
