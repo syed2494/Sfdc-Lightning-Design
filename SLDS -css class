@@ -1,0 +1,66 @@
+ <div class ="slds-box">
+            <div>
+                <lightning:tile label="Salesforce UX" href="/path/to/somewhere" >
+                    <aura:set attribute="media">
+                        <lightning:icon iconName="standard:groups"/>
+                    </aura:set>
+                    <div class="demo-only" style="width: 30rem;">
+                        <div class="slds-tile__detail">
+                            
+                            <dl class="slds-list_horizontal slds-wrap">
+                                
+                                
+                                
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">Name:</dt>
+                                
+                                
+                                
+                                <dd class="slds-item_detail slds-truncate"  title="Description for first label">{!v.Name}</dd>
+                                
+                                
+                                
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Second Label">Account Number:</dt>
+                                
+                                
+                                
+                                <dd class="slds-item_detail slds-truncate" title="Description for second label">{!v.AccountNumber}</dd>
+                                
+                                
+                                
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Third Label">Industry:</dt>
+                                
+                                
+                                
+                                <dd class="slds-item_detail slds-truncate" title="Description for Third label">{!v.Industry}</dd>           
+                                
+                                
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="four Label">Fax:</dt>
+                                
+                                
+                                
+                                <dd class="slds-item_detail slds-truncate" title="Description for four label">{!v.Fax}</dd>           
+                                
+                                
+                                
+                                
+                                <dt class="slds-item_label slds-text-color_weak slds-truncate" title="five Label">Type:</dt>
+                                
+                                
+                                
+                                <dd class="slds-item_detail slds-truncate" title="Description for five label">{!v.Type}</dd>           
+                                
+                                
+                                
+                            </dl>
+                            
+                            
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </lightning:tile>
+            </div>
+      
+  
+    </div>
